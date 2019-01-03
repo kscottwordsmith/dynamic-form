@@ -1,0 +1,51 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+#surround {
+    border: 1px solid rgb(200, 210, 221);
+    width: 700px;
+    font-family: "Helvetica", sans-serif;
+}
+
+#formHead {
+    background: rgb(73, 128, 190);
+    color: white;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+#formOutput {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cont {
+    border: 1px solid rgb(221, 224, 226);
+    width: auto;
+    margin-bottom: 10px;
+    color: rgb(214,214,214);
+}
+
+input, select, textarea {
+    border: none;
+    width: 600px;
+    margin-left: 10px;
+}
+
+textarea { 
+    height: 100px;
+}
+
+#formBot {
+    background: rgb(198, 217, 236);
+    padding: 5px;
+}
+
+button {
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+    background: rgb(73, 128, 190);
+    border: 1px solid rgb(94, 143, 198);
+    font-weight: bold;
+}
